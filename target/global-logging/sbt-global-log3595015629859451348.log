@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/home/imrane/Documents/Freelance/Big%20Data%20&%20Data%20Sience%20Tasks/Pokedex/}pokedex/products {file:/home/imrane/Documents/Freelance/Big%20Data%20&%20Data%20Sience%20Tasks/Pokedex/}pokedex/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/imrane/Documents/Freelance/Big Data & Data Sience Tasks/Pokedex/target/scala-3.1.3/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E134] Type Error: /home/imrane/Documents/Freelance/Big Data & Data Sience Tasks/Pokedex/src/main/scala/com/pokemon/Pokemon.scala:30:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m      [33mthis[0m.moveset.append(move.asJsObject.getFields([31m"move"[0m).head.asJsObject.getFields([31m"name"[0m).head)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNone of the overloaded alternatives of [33mmethod[0m [35mappend[0m in [33mtrait[0m [35mBuffer[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (elems: String*): collection.mutable.ArrayBuffer[String][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (elem: String): collection.mutable.ArrayBuffer[String][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmatch arguments ((Seq[spray.json.JsValue]#head : => spray.json.JsValue))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/imrane/Documents/Freelance/Big Data & Data Sience Tasks/Pokedex/src/main/scala/com/pokemon/Pokemon.scala:33:60 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m33 |[0m    [33mimplicit[0m [33mval[0m [36mstatFormat[0m: [35mJsonFormat[0m[[35mStat[0m] = jsonFormat2(Stat)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                            ^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe method `apply` is inserted. The auto insertion will be deprecated, please write `com.pokemon.Stat.apply` explicitly.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /home/imrane/Documents/Freelance/Big Data & Data Sience Tasks/Pokedex/src/main/scala/com/pokemon/Pokemon.scala:51:60 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m51 |[0m    [33mimplicit[0m [33mval[0m [36mtypeFormat[0m: [35mJsonFormat[0m[[35mType[0m] = jsonFormat2(Type)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                            ^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThe method `apply` is inserted. The auto insertion will be deprecated, please write `com.pokemon.Type.apply` explicitly.[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jul 31, 2022 1:08:39 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
